@@ -1,0 +1,231 @@
+/* RESETS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.5;
+  background-color: #F9F9F9;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+:target {
+  scroll-margin-block: 5ex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* top navbar menu */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:40px;
+    padding-right: 40px ;
+}
+
+.center-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.center-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+
+.center-menu ul li a {
+    position: relative;
+    padding-bottom: 4px; 
+}
+
+.center-menu ul li a.active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: brown;
+}
+
+ul li a:active {
+    color: rebeccapurple;
+}
+
+.left-menu {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1b1c1d;;
+}
+
+.book-btn {
+    color:#1b1c1d;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    background-color: #1b1c1d;
+    color:white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* hero section */
+
+.hero-section-container {
+    position: relative;
+    width: 100%;
+}
+
+.hero-section-container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+.restaurant-name,
+.text-umplutura,
+.hero-section-container .book-btn-hero {
+    position: absolute;
+    left: 60px;
+    color: white;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.restaurant-name {
+    bottom: 350px; 
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.text-umplutura {
+    bottom: 350px;
+    font-weight: bolder;
+}
+
+.hero-section-container .book-btn-hero {
+    bottom: 300px;
+    background-color: white;
+    color:#1b1c1d;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.about-us-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  align-items: stretch; 
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 6rem 40px;
+  gap: 4rem;
+
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: left;
+}
+
+.right-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.right-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+.subtitle {
+  color: #775A19;
+  font-size: 0.75rem;
+  
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.text {
+  color: #444748;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.tradition, .quality, .elegance {
+  display: inline;
+  margin-right: 10px;
+  font-weight: bold;
+}
