@@ -231,7 +231,7 @@ ul li a:active {
 }
 
 
-.main-container {
+.main-container-galerie {
     display: grid;
     grid-template-columns: 600px 600px;
     justify-content: center;
@@ -286,4 +286,75 @@ img {
   padding: 40px 120px;
   background-color: #F5F3F3;
   margin: 0 auto; 
+}
+
+/* testimoniale section */
+.testimonials {
+    width: 100%;        
+    background-color: white;
+    margin-top: 3rem;
+    height: 350px;
+    
+}
+
+.quote-number {
+    font-weight: bold;
+    font-size: 34px;
+    color: #a3782f;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #1c1c1c;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.quote-author {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #444;
+    text-align: center;
+}
+
+.quote-author .name {
+    color: #2f5d9e;
+}
+
+.quote-author .role {
+    color: #a3782f;
+}
+
+.nav-buttons {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-buttons button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #c9beac;
+    background: transparent;
+    color: #a3782f;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.nav-buttons button:hover {
+    background: #a3782f;
+    color: #fff;
 }
