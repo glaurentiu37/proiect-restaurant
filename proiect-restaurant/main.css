@@ -374,17 +374,80 @@ img {
 .left-adresa {
   display: grid;
   justify-items: center;
-  align-items: center;
+  /* align-items:flex-start; */
 }
 .adresa {
   font-size: 2rem;
   font-weight: bold;
 }
 
-
 .imagine-dreapta-adresa img {
   width: 40rem;
   height: 25rem;
   object-fit: cover;
   display: block;
+}
+
+
+/***** footer section 
+*****/
+
+.grid-footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10rem;
+  padding: 4rem 6rem;
+  background-color: #1b1b1b;
+}
+
+
+.center-footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+.center-footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 0;         
+    margin: 0;
+    gap: 0.5rem;        
+}
+.center-footer-menu a {
+  color: whitesmoke;
+}
+
+.content-newsletter {
+  color: whitesmoke;
+}
+
+.footer-menu {
+  color: #775A19;
+  font-weight: bold;
+}
+
+.content-newsletter, .footer-menu {
+   display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 1.5rem;         
+}
+ input {
+padding: 10px 20px;
+}
+
+.newsletter {
+  padding: 10px 20px;;
+}
+
+.aura-ristorante-content {
+  color: white;
+}
+
+h3 {
+ color:#775A19;
 }
