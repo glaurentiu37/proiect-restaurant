@@ -36,10 +36,10 @@ h3, h4 {
   text-wrap: balance;
 }
 
-a:not([class]) {
+/* a:not([class]) {
   text-decoration-skip-ink: auto;
   color: currentColor;
-}
+} */
 
 img,
 picture {
@@ -139,9 +139,8 @@ ul li a:active {
 
 .hero-section-container img {
     width: 100%;
-    height: 100vh;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
-    display: block;
 }
 
 .restaurant-name,
@@ -417,7 +416,7 @@ img {
     gap: 0.5rem;        
 }
 .center-footer-menu a {
-  color: whitesmoke;
+  color: whitesmoke
 }
 
 .content-newsletter {
