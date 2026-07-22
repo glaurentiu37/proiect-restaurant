@@ -358,3 +358,33 @@ img {
     background: #a3782f;
     color: #fff;
 }
+
+
+/****** adresa section *****/
+
+.container-grid-adresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.left-adresa {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.adresa {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.imagine-dreapta-adresa img {
+  width: 40rem;
+  height: 25rem;
+  object-fit: cover;
+  display: block;
+}
