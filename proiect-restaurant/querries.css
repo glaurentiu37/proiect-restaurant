@@ -69,3 +69,46 @@ a {
   text-decoration: none;
 }
 
+/********* responsive design ********/
+
+@media (max-width: 1269px) {
+.center-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.main-container {
+    padding-left:30px;
+    padding-right: 30px ;
+}
+.left-menu {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.book-btn {
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: #1b1c1d;
+    color:white;
+    padding: 7px;
+}
+.hero-section-container img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.hero-text-block {
+      bottom: 40px;
+      left: 30px;
+    }
+    .restaurant-name {
+      font-size: 1.5rem;
+    }
+
+}
+

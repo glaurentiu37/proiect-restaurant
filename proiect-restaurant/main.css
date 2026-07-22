@@ -143,35 +143,45 @@ ul li a:active {
     object-fit: cover;
 }
 
-.restaurant-name,
-.text-umplutura,
-.hero-section-container .book-btn-hero {
+.hero-text-block {
     position: absolute;
     left: 60px;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.hero-text-block p {
+    margin: 0;
+    top:0
+  }
+.restaurant-name {
     color: white;
+    font-size: 3rem;
+    font-weight: bolder;
     backdrop-filter: blur(5px);
     padding: 5px;
     border-radius: 5px;
 }
 
-.restaurant-name {
-    bottom: 350px; 
-    font-size: 3rem;
-    font-weight: bolder;
-}
-
 .text-umplutura {
-    bottom: 350px;
+    color: white;
     font-weight: bolder;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 5px;
 }
 
-.hero-section-container .book-btn-hero {
-    bottom: 300px;
+.book-btn-hero {
     background-color: white;
-    color:#1b1c1d;
+    color: #1b1c1d;
     padding: 10px;
     font-weight: bold;
+    border-radius: 5px;
 }
+
+
 
 .about-us-section {
   display: grid;
