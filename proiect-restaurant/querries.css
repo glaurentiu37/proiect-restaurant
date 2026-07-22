@@ -110,5 +110,31 @@ a {
       font-size: 1.5rem;
     }
 
+   .galerie-section-container {
+        padding: 40px 24px;
+    }
+
+    .main-container-galerie {
+        grid-template-columns: 1fr 1fr;
+        max-width: 600px;
+        margin: 0 auto;
+        gap:1rem;
+    }
+
+    .right-image {
+        grid-template-rows: 250px 400px;
+    }
+
+    .imagini-jos {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .title-galerie {
+        font-size: 2rem;
+    }
+
+    
 }
 
