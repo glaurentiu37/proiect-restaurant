@@ -459,3 +459,106 @@ padding: 10px 20px;
 h3 {
  color:#775A19;
 }
+
+
+/******************** menu page CSS ********************/
+
+
+.menu-hero-container {
+    width: 100%;
+}
+
+.img-hero{
+    width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; 
+}
+
+.bookmark-hero-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-pdf  {
+      margin-left: auto;
+}
+
+.grid-menu-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    /* gap: 3rem; */
+}
+
+.grid-menu-page > p {
+    grid-column: 1 / -1;
+}
+
+.aperitive-section {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.title-aperitive {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.aperitive-subtitle {
+    /* border: 1px solid red; */
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 3px;
+    color:#1b1b1b;
+    background-color: rgba(128, 128, 128, 0.24);
+    font-weight: 700;
+}
+
+.food1, .food2, .food3, .food4 {
+   margin-bottom: 3rem;
+}
+
+
+/* feluri principale */
+
+
+.grid-feluri-principale {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.serveste-masa img {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+
+.food-feluri-principale1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.food-feluri-principale1-imagine-dreapta {
+  width: 20px;
+  height: 400px; 
+  display: block
+}
