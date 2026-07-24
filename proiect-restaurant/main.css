@@ -538,27 +538,112 @@ ul {
 /* feluri principale */
 
 
-.grid-feluri-principale {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    justify-items: center;
-    align-items: center;
+.menu-section {
+  background-color: #c9beacb4;
+  width: 100%;
+  padding: 4rem 0;
 }
 
-.serveste-masa img {
-    width: 100%;
-    height: auto; 
-    display: block;
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
 }
 
-.food-feluri-principale1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+.feluri-principale-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr; 
+  gap: 4rem;
+  max-width: 1100px; 
+  margin: 0 auto; 
+  padding: 0 2rem;
+  align-items: center;
 }
 
-.food-feluri-principale1-imagine-dreapta {
-  width: 20px;
-  height: 400px; 
-  display: block
+.bistecca-content .bistecca {
+  color: #a3782f;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.bistecca-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+}
+
+.bistecca-text {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.tags-container {
+  display: flex;
+  gap: 10px;
+}
+
+.bistecca-tags, .bistecca-tags1 {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.bistecca-tags { border: 1px solid #1b1b1b71; }
+.bistecca-tags1 { border: 1px solid #1b1b1b; }
+
+.image-bistecca-rig img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Grila de jos pentru restul produselor */
+.restul-randurilor-menu {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title-price {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-description {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.4;
+}
+
+.title-veg {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.4rem;
+}
+
+Responsivitate pentru ecrane mici
+@media (max-width: 768px) {
+  .feluri-principale-grid, .restul-randurilor-menu {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .image-bistecca-rig {
+    order: -1; /* Imaginea trece deasupra textului pe mobil */
+  }
 }
