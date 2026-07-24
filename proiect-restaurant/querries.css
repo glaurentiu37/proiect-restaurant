@@ -138,3 +138,198 @@ a {
     
 }
 
+/* MEDIA QUERIES - */
+
+
+@media (max-width: 1024px) {
+    .center-menu ul {
+        gap: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .main-container-galerie {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+
+    .right-image {
+        grid-template-rows: auto auto;
+    }
+
+    .imagini-jos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .galerie-section-container {
+        padding: 40px 40px;
+    }
+}
+@media (max-width: 768px) {
+  
+    .main-container {
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .center-menu ul {
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.2rem;
+        padding: 0;
+    }
+
+    .center-menu ul li a {
+        font-size: 1.1rem;
+    }
+
+
+    .hero-text-block {
+        left: 5%;
+        bottom: 10%;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .restaurant-name {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .text-umplutura {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    
+    .about-us-section {
+        grid-template-columns: 1fr;
+        padding: 4rem 1.5rem;
+        gap: 3rem;
+    }
+
+    .left-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .right-photo {
+        order: -1; 
+        height: auto;
+        max-height: 400px;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+   
+    .galerie-section-container {
+        padding: 3rem 1.5rem;
+    }
+
+    .main-container-galerie {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .right-image {
+        grid-template-rows: auto;
+        gap: 1.5rem;
+    }
+
+    .imagini-jos {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    
+    .container-grid-adresa {
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 0;
+    }
+
+    .left-adresa {
+        padding: 3rem 1.5rem;
+        text-align: center;
+    }
+
+    .imagine-dreapta-adresa {
+        height: 300px;
+    }
+
+  
+    .grid-footer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 3rem 1.5rem;
+        text-align: center;
+    }
+
+    .center-footer-menu ul {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .left-menu {
+        font-size: 1.8rem;
+    }
+
+    .center-menu ul {
+        gap: 0.8rem;
+    }
+
+    .center-menu ul li a {
+        font-size: 0.95rem;
+    }
+
+    .book-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .restaurant-name {
+        font-size: 1.8rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .text {
+        font-size: 1.1rem;
+    }
+
+    .imagini-jos {
+        grid-template-columns: 1fr; 
+
+    .quote-text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .quote-number {
+        font-size: 2rem;
+    }
+
+    .right-newsletter input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .newsletter {
+        width: 100%;
+    }
+}
