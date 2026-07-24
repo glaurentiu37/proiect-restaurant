@@ -691,4 +691,59 @@ h1 {
     color: #888;
 }
 
+/*88888888888888888888 bauturi section 88888888888888888888*/
 
+
+.drinks-section {
+    padding: 5rem 0;
+    background-color: #fff; 
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    color: #1b1b1b;
+}
+
+.drinks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.drink-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1.5rem;
+}
+
+.drink-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+}
+
+.drink-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1b1b1b;
+}
+
+.drink-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #a3782f; 
+}
+
+.drink-desc {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;

@@ -279,10 +279,21 @@ a {
     .center-footer-menu ul {
         padding: 0;
     }
+
+    .drinks-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
 }
 
 
-@media (max-width: 480px) {
+
+@media (max-width: 480px) { 
     .left-menu {
         font-size: 1.8rem;
     }
@@ -332,4 +343,5 @@ a {
     .newsletter {
         width: 100%;
     }
-}
+    }
+    }
