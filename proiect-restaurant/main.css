@@ -636,14 +636,59 @@ h1 {
   margin-top: 0.4rem;
 }
 
-Responsivitate pentru ecrane mici
-@media (max-width: 768px) {
-  .feluri-principale-grid, .restul-randurilor-menu {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  
-  .image-bistecca-rig {
-    order: -1; /* Imaginea trece deasupra textului pe mobil */
-  }
+/* produse traditionale */
+
+.traditional-section {
+    padding: 4rem 0;
+    width: 100%;
 }
+
+.traditional-section h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.2rem;
+    color: #1b1b1b;
+}
+
+.grid-deserturi-baturi {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Două coloane egale */
+    gap: 3rem 4rem; /* Spațiu între rânduri și coloane */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd; /* Linie subtilă de separare */
+    padding-bottom: 1.5rem;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.price {
+    color: #a3782f;
+}
+
+.item-desc {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0 0 0.5rem 0;
+}
+
+.non-veg {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+
