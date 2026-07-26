@@ -466,8 +466,30 @@ h3 {
 
 .menu-hero-container {
     width: 100%;
+    position: relative;
+}
+.menu-text-container{
+  font-size: 3rem;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
 }
 
+.menu-text-container-subtext {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+}
 .img-hero{
   width: 100%;
   height: auto;
@@ -542,35 +564,7 @@ h3 {
 .menu-pdf:hover a {
     color: #fff;
 }
-/* .bookmark-hero-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-      position: relative;
-    color: #2a2a2a;
-    text-decoration: none;
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding-bottom: 4px;
-}
 
-a {
-    text-decoration: none;
-    color: #a51d1d;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 2rem;
-}
-
-.menu-pdf  {
-      margin-left: auto;
-} */
 
 .grid-menu-page {
     display: grid;
