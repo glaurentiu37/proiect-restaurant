@@ -469,21 +469,95 @@ h3 {
 }
 
 .img-hero{
-    width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   object-fit: cover; 
 }
+.bookmark-hero-container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+}
 
-.bookmark-hero-container {
+.bookmark-hero-container ul li a {
+    position: relative;
+    color: #2a2a2a;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.bookmark-hero-container ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background: #b08d57;
+    transition: width 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.bookmark-hero-container ul li a:hover {
+    color: #b08d57;
+    letter-spacing: 2.5px;
+}
+
+.bookmark-hero-container ul li a:hover::after {
+    width: 100%;
+}
+
+.menu-pdf {
+    background: transparent;
+    border: 1px solid #b08d57;
+    padding: 10px 24px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    /* margin-left: auto;*/
+} 
+
+.menu-pdf a {
+    color: #b08d57;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.menu-pdf:hover {
+    background: #b08d57;
+}
+
+.menu-pdf:hover a {
+    color: #fff;
+}
+/* .bookmark-hero-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+      position: relative;
+    color: #2a2a2a;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 4px;
 }
 
 a {
     text-decoration: none;
-    color: #1b1b1b;
+    color: #a51d1d;
 }
 
 ul {
@@ -496,7 +570,7 @@ ul {
 
 .menu-pdf  {
       margin-left: auto;
-}
+} */
 
 .grid-menu-page {
     display: grid;
@@ -510,16 +584,6 @@ ul {
     grid-column: 1 / -1;
 }
 
-/* .aperitive-section {
-    font-size: 2rem;
-    font-weight: 800;
-}
-
-.title-aperitive {
-    font-size: 18px;
-    font-weight: 900;
-}
- */
 .aperitive-subtitle {
     width: fit-content;
     padding: 4px 8px;
@@ -717,7 +781,7 @@ h1 {
 .drink-item {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ff0000;
     padding-bottom: 1.5rem;
 }
 
