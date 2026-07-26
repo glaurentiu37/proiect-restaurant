@@ -510,7 +510,7 @@ ul {
     grid-column: 1 / -1;
 }
 
-.aperitive-section {
+/* .aperitive-section {
     font-size: 2rem;
     font-weight: 800;
 }
@@ -519,9 +519,8 @@ ul {
     font-size: 18px;
     font-weight: 900;
 }
-
+ */
 .aperitive-subtitle {
-    /* border: 1px solid red; */
     width: fit-content;
     padding: 4px 8px;
     border-radius: 3px;
@@ -570,7 +569,7 @@ h1 {
 }
 
 .bistecca-title {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 800;
   margin: 0.5rem 0;
 }
